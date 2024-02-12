@@ -1,0 +1,168 @@
+:root {
+    --color-primary: #f4f4f4; 
+    --color-secondary: #373A3C;
+} 
+html {
+    font-size: 40%;
+    /* height: 100%; */
+    /* height: fit-content; */
+}
+body{
+    /* background: orange; */
+    font-family: Arial, Helvetica, sans-serif;
+    /* padding-top: 5rem; */
+    display: flex;
+    flex-direction: column;
+    /* display: grid; */
+
+    
+}
+
+/* nav and footer */
+.nav, .footer {
+    background: blueviolet;
+}
+.title_img {
+    width: 55rem;
+    margin-left: 5rem;
+    /* background: rgb(115, 54, 173); */
+}
+
+
+/* Display */
+.display {
+    transition: all 0.5s;
+}
+.show_result {
+    width: 35rem;
+    margin-left: 12.5rem;
+
+}
+.ruselt_image {
+    width: 46.7rem;
+}
+.show_number {
+    width: 10rem;
+    margin-left: 25.25rem;
+    margin-bottom: 1rem;
+}
+
+
+/* Button */
+.btn-target {
+    /* border-radius: 100px; */
+    padding: 1rem 3rem ;
+    font-size: 3rem;
+    border-radius: 25px;
+}
+#btn-1-0{
+    opacity: 0;
+
+}
+.dial-style{
+    width: 90%;
+    
+}
+
+.restart-btn {
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    padding: 1rem 5rem;
+    display: flex;
+    border-radius: 25px;
+    margin-left: 21.5%;
+}
+
+/* Footer */
+.footer {
+    padding: 2rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+/* grid Machamisum */
+.grid {
+    display: grid;
+    gap: 1rem;
+    /* align-items: center; */
+}
+
+.grid--1x3 {
+    grid-template-columns:  1fr 1fr 1fr;
+    align-items: stretch;
+    justify-content: stretch;
+}
+
+
+
+
+
+
+@media screen and (min-width: 465px) {
+    html {
+        font-size: 46.46%;
+    }
+
+    /* containar Position */
+    .position{
+        margin-left: 30%;
+    }
+
+    /* nav */
+    .title_img {
+        width: 120rem;
+        margin-left: 85rem;
+        /* background: rgb(115, 54, 173); */
+    }
+
+    /* Display */
+    .show_result {
+        width: 50rem;
+        /* margin-left: 17%; */
+     
+    }
+    .ruselt_image {
+        margin-left: 17%;
+    } 
+    .show_number {
+        /* background: #373A3C; */
+        width: 25rem;
+        height: 25rem;
+        margin-top: 10rem;
+        margin-left: 5rem;
+        /* display: none; */
+    }
+    .ruselt_image {
+        margin-left: 17%;
+    }
+
+    /* Button */
+    .dial-style {
+        margin-top: 1rem;
+        margin-left: 20rem;
+        width: 40%;
+    }
+    .btn-target {
+        /* border-radius: 50px; */
+        padding: 1.5rem 2rem ;
+        font-size: 3rem;
+    }
+    .restart-btn {
+        font-size: 5rem;
+        margin-top: 2rem;
+        padding: 1rem 15rem;
+        display: flex;
+        border-radius: 25px;
+        margin-left: 12%;
+    }
+
+    /* grid */
+    .grid--1x2 {
+        grid-template-columns:  0.3fr 1fr;
+        align-items: stretch;
+        justify-content: stretch;
+    }
+    
+}
